@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mi bodega</string>
+    <string name="bienvenido">Bienvenido a mi bodega</string>
+    <string name="Nombre">Nombre</string>
+    <string name="boton">Iniciar</string>
+    <string name="mensaje">%s estas usando la version 1.0.0 de Mi Bodega :)</string>
+    <string name="descripcion">Esta aplicacion trata sobre un catalogo de alcohol disponible.</string>
+    <string name="cont">Contactar</string>
+</resources>
