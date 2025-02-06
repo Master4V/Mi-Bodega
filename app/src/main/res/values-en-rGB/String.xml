@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mi bodega</string>
+    <string name="app_name">My </string>
     <string name="bienvenido">Bienvenido a mi bodega</string>
     <string name="Nombre">Nombre</string>
     <string name="boton">Iniciar</string>
@@ -10,8 +10,6 @@
     <string name="comenzar">Entrar</string>
     <string name="salgo">Salir</string>
     <string name="menu">Bienvenido a esta aplicacion %s, empezamos?</string>
-    <string name="infoUsu">Segun nuestros informes te llamas %s y ultimamente has visitado mucho nuestra aplicacion.
-    Suponemos que tienes un moton de botellas añadidas a favoritos y que has podido aprender mucho de nuestra informacion bien redactada
-    en la descripcion. Besos y vuelve pronto cuando mejore esto. Y un saludo para Felix.</string>
+    <string name="infoUsu">Hello blank fragment</string>
 
 </resources>

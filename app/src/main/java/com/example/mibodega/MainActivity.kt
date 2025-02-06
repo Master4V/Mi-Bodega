@@ -9,24 +9,26 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.navigation.fragment.NavHostFragment
+import com.example.mibodega.ContenidoDLC.Memoria
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+        /*
+                val etnom=findViewById<EditText>(R.id.etnom)
+                val botom=findViewById<Button>(R.id.btn)
 
-        val etnom=findViewById<EditText>(R.id.etnom)
-        val botom=findViewById<Button>(R.id.btn)
-
-        botom.setOnClickListener{
-            if (etnom.text.isEmpty()) {
-                Toast.makeText(this, "El campo está vacío", Toast.LENGTH_SHORT).show()
-            } else {
-                val intent = Intent(this, CreditActivity::class.java)
-                intent.putExtra("Name",etnom.text.toString())
-                startActivity(intent)
-            }
-        }
+                botom.setOnClickListener{
+                    if (etnom.text.isEmpty()) {
+                        Toast.makeText(this, "El campo está vacío", Toast.LENGTH_SHORT).show()
+                    } else {
+                        val intent = Intent(this, CreditActivity::class.java)
+                        intent.putExtra("Name",etnom.text.toString())
+                        startActivity(intent)
+                    }
+                }*/
     }
 }

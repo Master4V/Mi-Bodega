@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_navigation"
+    app:startDestination="@id/infoUsuarioFragment2">
+
+    <fragment
+        android:id="@+id/infoUsuarioFragment2"
+        android:name="com.example.mibodega.InfoUsuarioFragment"
+        android:label="fragment_info_usuario"
+        tools:layout="@layout/fragment_info_usuario" />
+</navigation>
