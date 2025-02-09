@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/crema"
     tools:context=".CreditFragment">
 
     <TextView
@@ -12,9 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mensaje"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginTop="30sp"
+        style="@style/TextoEs"
+        android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -25,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/descripcion"
-        android:textSize="20sp"
+        style="@style/TNormal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/texto" />
@@ -34,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cont"
+        style="@style/Botones"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

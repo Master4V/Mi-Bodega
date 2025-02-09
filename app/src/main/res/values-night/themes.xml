@@ -1,7 +1,68 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme (Modo Nocturno) -->
     <style name="Base.Theme.MiBodega" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/darker_gray</item>
+        <item name="android:colorBackground">@color/dark_blue</item>
+    </style>
+
+    <style name="Theme.MiBodega" parent="Base.Theme.MiBodega" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="TituloInicial">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextoEs">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TNormal">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ETexto">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Encabezados">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TDiff">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TInfoUsu">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Botones">
+        <item name="android:background">@drawable/boton</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="Favorito">
+        <item name="android:button">@null</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:drawableStart">@drawable/fav_selector</item>
+        <item name="android:drawablePadding">8dp</item>
     </style>
 </resources>

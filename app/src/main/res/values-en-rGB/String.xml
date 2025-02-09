@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">My </string>
-    <string name="bienvenido">Bienvenido a mi bodega</string>
-    <string name="Nombre">Nombre</string>
-    <string name="boton">Iniciar</string>
-    <string name="mensaje">%s estas usando la version 1.0.1 de Mi Bodega :)</string>
-    <string name="descripcion">Esta aplicacion trata sobre un catalogo de alcohol disponible.</string>
-    <string name="cont">Contactar</string>
-    <string name="deslizo">Deslizo jaja</string>
-    <string name="comenzar">Entrar</string>
-    <string name="salgo">Salir</string>
-    <string name="menu">Bienvenido a esta aplicacion %s, empezamos?</string>
+    <string name="app_name">My Winery</string>
+    <string name="bienvenido">Welcome to My Winery</string>
+    <string name="Nombre">Name</string>
+    <string name="boton">Start</string>
+    <string name="mensaje">%s, you are using version 1.0.1 of My Winery :)</string>
+    <string name="descripcion">This app is about a catalog of available alcohol.</string>
+    <string name="cont">Contact</string>
+    <string name="deslizo">Swiped haha</string>
+    <string name="comenzar">Enter</string>
+    <string name="salgo">Exit</string>
+    <string name="menu">Welcome to this app %s, shall we begin?</string>
     <string name="infoUsu">Hello blank fragment</string>
 
 </resources>

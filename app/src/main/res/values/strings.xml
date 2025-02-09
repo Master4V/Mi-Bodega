@@ -10,8 +10,12 @@
     <string name="comenzar">Entrar</string>
     <string name="salgo">Salir</string>
     <string name="menu">Bienvenido a esta aplicacion %s, empezamos?</string>
-    <string name="infoUsu">Segun nuestros informes te llamas %s y ultimamente has visitado mucho nuestra aplicacion.
-    Suponemos que tienes un moton de botellas añadidas a favoritos y que has podido aprender mucho de nuestra informacion bien redactada
-    en la descripcion. Besos y vuelve pronto cuando mejore esto. Y un saludo para Felix.</string>
+    <string name="infoUsu">Segun nuestros informes te llamas %s\n
+y ultimamente has visitado mucho nuestra aplicacion.\n\n
+Suponemos que tienes un monton de botellas añadidas a favoritos\n
+y que has podido aprender mucho de nuestra informacion bien redactada\n
+en la descripcion.\n\n
+Besos y vuelve pronto cuando mejore esto.\n
+Y un saludo para Felix.</string>
 
 </resources>
